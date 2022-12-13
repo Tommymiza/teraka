@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Teraka est un programme certifié de boisement ou reboisement mené par des petits groupes d'agriculteurs à Madagascar"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bienvenue sur TERAKA</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="titre.png" alt="Title Teraka" />
+    </header>
+    <section>
+      <div>
+        <h2>
+          TERAKA est un programme certifié de boisement / reboisement mené par
+          des petits groupes d'agriculteurs à Madagascar
+        </h2>
+        <h3>
+          Basé sur un modèle primé internationalement, TERAKA contribue aux
+          Objectifs de Développement Durable (ODD) des Nations Unies
+        </h3>
+        <p>
+          Veuillez cliquer sur une option ci-dessous pour accéder au site Web
+          approprié de TERAKA
+        </p>
+      </div>
+      <div class="logo-img">
+        <div class="btn">
+          <div>
+            <button onclick="redirect('https:\/\/terakajoin.vercel.app')">Rejoindre TERAKA</button>
+            <p>
+              Les agriculteurs qui désirent s’inscrire au programme et planter
+              des arbres
+            </p>
+          </div>
+          <div>
+            <button onclick="redirect('https:\/\/terakatraining.vercel.app')">Centre de formation</button>
+            <p>
+              Accédez au matériel de formation pédagogique en ligne gratuit de
+              TERAKA
+            </p>
+          </div>
+        </div>
+        <img src="logo.png" alt="Logo de Teraka" />
+        <div class="btn">
+          <div>
+            <button onclick="redirect('https:\/\/terakaprogram.vercel.app')">Programme TERAKA</button>
+            <p>
+              En savoir plus sur le programme et s’engager avec TERAKA en
+              plantant des arbres, en achetant des crédits carbone ou en
+              sponsorisant des petits groupes
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function redirect(l){
+        window.open(l, "_self")
+      }
+    </script>
+  </body>
+</html>

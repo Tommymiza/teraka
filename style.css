@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("./OpenSans-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+body{
+    background: #ebf1f4;
+}
+header{
+    background: linear-gradient(to right, #313d2f, #728c6b) ;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+header>img{
+    height: 40px;
+}
+section{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+section>div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+section>div.logo-img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+section div.logo-img>img{
+    width: 300px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+button{
+    background: #313d2f;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 7px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button + p{
+    font-size: 13px;
+    width: 150px;
+    text-align: justify;
+}
+button:hover{
+    background: #728c6b;
+}
+@media screen and (max-width: 500px) {
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    button{
+        font-size: 15px;
+        width: 120px;
+    }
+    button + p{
+        width: 120px;
+    }
+}
