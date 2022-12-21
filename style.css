@@ -11,8 +11,8 @@ body{
     background: #ebf1f4;
 }
 header{
-    background: linear-gradient(to right, #313d2f, #728c6b) ;
-    padding: 50px;
+    background:#313d2f;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,7 +20,7 @@ header{
     margin-bottom: 20px;
 }
 header>img{
-    height: 40px;
+    height: 160px;
 }
 section{
     display: flex;
@@ -39,6 +39,9 @@ section>div{
 section>div.logo-img{
     margin-top: 20px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8vw;
 }
 section div.logo-img>img{
     width: 300px;
@@ -50,24 +53,25 @@ section div.logo-img>img{
     justify-content: space-evenly;
 }
 button{
-    background: #313d2f;
+    background: #728c6b;
     color: white;
     padding: 10px;
     border: none;
     font-size: 18px;
     border-radius: 7px;
-    width: 150px;
+    width: 250px;
     text-align: center;
+    font-weight: bolder;
     cursor: pointer;
     transition: 0.2s;
 }
 button + p{
-    font-size: 13px;
-    width: 150px;
-    text-align: justify;
+    font-size: 17px;
+    width: 250px;
+    text-align: center;
 }
 button:hover{
-    background: #728c6b;
+    background: #313d2f;
 }
 @media screen and (max-width: 500px) {
     h2{
