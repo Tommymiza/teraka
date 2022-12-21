@@ -51,6 +51,8 @@ section div.logo-img>img{
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 button{
     background: #728c6b;
@@ -71,19 +73,4 @@ button + p{
 }
 button:hover{
     background: #313d2f;
-}
-@media screen and (max-width: 500px) {
-    h2{
-        font-size: 20px;
-    }
-    h3{
-        font-size: 17px;
-    }
-    button{
-        font-size: 15px;
-        width: 120px;
-    }
-    button + p{
-        width: 120px;
-    }
 }
